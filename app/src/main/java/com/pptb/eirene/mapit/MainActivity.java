@@ -5,8 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -32,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, About.class));
     }
 
+    private void Profile(){
+        startActivity(new Intent(MainActivity.this, Profile.class));
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
@@ -48,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
             break;
             case R.id.aboutMenu:{
                 About();
+            }
+            break;
+            case R.id.profileMenu:{
+                Profile();
             }
         }
         return super.onOptionsItemSelected(item);

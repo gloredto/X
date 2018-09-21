@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "131480029561",
+    "firebase_url": "https://mapit-2121.firebaseio.com",
+    "project_id": "mapit-2121",
+    "storage_bucket": "mapit-2121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131480029561:android:05a93c0c8877fe9a",
+        "android_client_info": {
+          "package_name": "com.pptb.eirene.mapit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131480029561-i71ri1jo9grimv9kbhaf9h8gmmvf9fpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pptb.eirene.mapit",
+            "certificate_hash": "64657cfea99bea7440ef07410add528223575e94"
+          }
+        },
+        {
+          "client_id": "131480029561-qgsncgftmv3mcpeq09pfg8vh8p1bec36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeazGmEK_1TBY0VcsGuU4RNAC2cBfGeII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131480029561-qgsncgftmv3mcpeq09pfg8vh8p1bec36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

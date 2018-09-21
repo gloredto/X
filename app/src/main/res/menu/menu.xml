@@ -11,7 +11,7 @@
     </item>
 
     <item
-        android:id="@+id/Menu"
+        android:id="@+id/profileMenu"
         android:icon="@drawable/profileicon"
         android:orderInCategory="200"
         app:showAsAction="always"
