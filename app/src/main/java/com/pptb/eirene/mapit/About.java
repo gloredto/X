@@ -8,14 +8,14 @@ import android.view.MenuItem;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-public class MainActivity extends AppCompatActivity {
+public class About extends AppCompatActivity {
 
     private FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_about);
 
         firebaseAuth = FirebaseAuth.getInstance();
     }
@@ -23,15 +23,15 @@ public class MainActivity extends AppCompatActivity {
     private void Logout(){
         firebaseAuth.signOut();
         finish();
-        startActivity(new Intent(MainActivity.this, Login.class));
+        startActivity(new Intent(About.this, Login.class));
     }
 
     private void About(){
-        startActivity(new Intent(MainActivity.this, About.class));
+        startActivity(new Intent(About.this, About.class));
     }
 
     private void Profile(){
-        startActivity(new Intent(MainActivity.this, Profile.class));
+        startActivity(new Intent(About.this, Profile.class));
     }
 
     @Override
@@ -59,3 +59,4 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+
